@@ -32,7 +32,7 @@ function payWithPaystack() {
   console.log("After Validation - Loader Visible?", loader.style.display);
 
   // Fetch amount and check payment status
-  fetch(`https://script.google.com/macros/s/AKfycbyXA44xTJ6oHC3IBezWNOBPlLT8wrQDtXeCTcFR4EiDdijndVw_f64M193Gl1JVjnPHDA/exec?email=${encodeURIComponent(userEmail)}`)
+  fetch(`https://script.google.com/macros/s/AKfycbxxAPgtiyCpqD8mz6GRzRhS6zoSEg1X87_rMo1GG1Wxla8fmiHTXrFG_50q8DoDK2I4lQ/exec?email=${encodeURIComponent(userEmail)}`)
     .then(res => res.json())
     .then(data => {
       if (data.alreadyPaid) {
