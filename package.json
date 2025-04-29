@@ -7,9 +7,9 @@
     "start": "node api/proxy.js"
   },
   "dependencies": {
-    "node-fetch": "^3.3.1"  // Include this if you are using fetch in your proxy
+    "node-fetch": "^3.3.1"  
   },
   "engines": {
-    "node": ">=14"  // Specify the Node.js version supported by Vercel
+    "node": ">=14"  
   }
 }
