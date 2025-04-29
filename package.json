@@ -1,4 +1,15 @@
 {
   "name": "vercel-proxy",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "A proxy server deployed on Vercel to handle CORS.",
+  "main": "api/proxy.js",
+  "scripts": {
+    "start": "node api/proxy.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1"  // Include this if you are using fetch in your proxy
+  },
+  "engines": {
+    "node": ">=14"  // Specify the Node.js version supported by Vercel
+  }
 }
